@@ -1,0 +1,33 @@
+{
+  "name": "jwt-key-generator",
+  "version": "1.0.0",
+  "description": "Cryptographic Key Master is an application designed to make it easier for software developers to generate various hashes and keys.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
+  },
+  "keywords": [
+    "cryptographic",
+    "jwt",
+    "jsonwebtoken",
+    "session",
+    "password",
+    "bcrypt",
+    "ejs"
+  ],
+  "author": "Marius Heinrich",
+  "license": "GNU",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

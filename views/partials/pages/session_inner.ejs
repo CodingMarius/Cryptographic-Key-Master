@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm"></div>
+    <div class="col-sm">
+      <div class="text-center">
+        <form action="/session" method="post">
+          <% if (messages.info) { %>
+          <div class="card">
+            <div class="card-text">
+              <code><%= JSON.stringify(messages.info) %> </code>
+            </div>
+          </div>
+          <% } %>
+          <fieldset class="form-group">
+            <hr />
+            <button
+              type="submit"
+              class="btn btn-lg btn-primary"
+              style="margin-top: 20px"
+            >
+              GENERATE
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="col-sm"></div>
+  </div>
+</div>
