@@ -1,10 +1,6 @@
 # Cryptographic-Key-Master
 Cryptographic Key Master is an application designed to make it easier for software developers to generate various hashes and keys.
 
-## Author
-
-- [@CodingMarius](https://www.github.com/CodingMarius)
-
 ## DEMO
 
 - [Live Demo](https://everlasting-alpine-fireman.glitch.me)
